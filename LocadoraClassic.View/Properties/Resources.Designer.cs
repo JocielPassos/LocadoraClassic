@@ -63,19 +63,9 @@ namespace LocadoraClassic.View.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _716813 {
+        internal static System.Drawing.Bitmap _1309998 {
             get {
-                object obj = ResourceManager.GetObject("716813", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Efeito___01___Designer_Conectr {
-            get {
-                object obj = ResourceManager.GetObject("Efeito - 01 - Designer Conectr", resourceCulture);
+                object obj = ResourceManager.GetObject("1309998", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,16 +76,6 @@ namespace LocadoraClassic.View.Properties {
         internal static System.Drawing.Bitmap icons8_4k_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-4k-48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap istockphoto_1370858067_612x612 {
-            get {
-                object obj = ResourceManager.GetObject("istockphoto-1370858067-612x612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

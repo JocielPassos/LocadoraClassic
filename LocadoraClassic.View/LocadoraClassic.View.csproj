@@ -70,12 +70,19 @@
     <Compile Include="FrmTelaGenero.Designer.cs">
       <DependentUpon>FrmTelaGenero.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTelaLocacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaLocacao.Designer.cs">
+      <DependentUpon>FrmTelaLocacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmTelaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmTelaPrincipal.Designer.cs">
       <DependentUpon>FrmTelaPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="GeneroView.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmTelaCategoria.resx">
@@ -89,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTelaGenero.resx">
       <DependentUpon>FrmTelaGenero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaLocacao.resx">
+      <DependentUpon>FrmTelaLocacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTelaPrincipal.resx">
       <DependentUpon>FrmTelaPrincipal.cs</DependentUpon>
@@ -120,13 +130,17 @@
     <None Include="Resources\icons8-4k-48.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Efeito - 01 - Designer Conectr.png" />
+    <None Include="Resources\1309998.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\istockphoto-1370858067-612x612.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\716813.png" />
+    <ProjectReference Include="..\LocadoraClassic.DAL\LocadoraClassic.DAL.csproj">
+      <Project>{f2bd8e22-c94f-44c3-8d48-0dd322e3bd53}</Project>
+      <Name>LocadoraClassic.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LocadoraClassic.VO\LocadoraClassic.VO.csproj">
+      <Project>{77728add-d242-4d81-a15b-9f0fbca3f6f6}</Project>
+      <Name>LocadoraClassic.VO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

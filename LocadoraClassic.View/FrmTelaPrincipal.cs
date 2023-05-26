@@ -29,11 +29,16 @@ namespace LocadoraClassic.View
 
         private void generoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FrmTelaGenero frmTelaGenero = new FrmTelaGenero();
-            frmTelaGenero.ShowDialog();//show é um método
-            this.Show();
-            
+
+            FrmTelaGenero frmtelagenero = new FrmTelaGenero();
+
+            panel1.Controls.Clear();
+
+            frmtelagenero.TopLevel = false;
+
+            panel1.Controls.Add(frmtelagenero);
+
+            frmtelagenero.Show();
 
         }
 
@@ -44,18 +49,31 @@ namespace LocadoraClassic.View
 
         private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
+          
+
             FrmTelaCategoria frmtelacategoria = new FrmTelaCategoria();
-            frmtelacategoria.ShowDialog();
-            this.Show();
+
+            panel1.Controls.Clear();
+
+            frmtelacategoria.TopLevel = false;
+
+            panel1.Controls.Add(frmtelacategoria);
+
+            frmtelacategoria.Show();
         }
 
         private void filmeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
+
             FrmTelaFilme frmtelafilme = new FrmTelaFilme();
-            frmtelafilme.ShowDialog();
-            this.Show();
+
+            panel1.Controls.Clear();
+
+            frmtelafilme.TopLevel = false;
+
+            panel1.Controls.Add(frmtelafilme);
+
+            frmtelafilme.Show();
         }
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,10 +83,31 @@ namespace LocadoraClassic.View
 
         private void clienteToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
+            
+
             FrmTelaCliente frmtelacliente = new FrmTelaCliente();
-            frmtelacliente.ShowDialog();
-            this.Show();
+
+            panel1.Controls.Clear();
+
+            frmtelacliente.TopLevel = false;
+
+            panel1.Controls.Add(frmtelacliente);
+
+            frmtelacliente.Show();
+        }
+
+        private void realizarLocaçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            FrmTelaLocacao frmtelalocacao = new FrmTelaLocacao();
+
+            panel1.Controls.Clear();
+
+            frmtelalocacao.TopLevel = false;
+
+            panel1.Controls.Add(frmtelalocacao);
+
+            frmtelalocacao.Show();
         }
     }
 }

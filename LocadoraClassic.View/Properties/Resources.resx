@@ -121,13 +121,7 @@
   <data name="icons8-4k-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-4k-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto-1370858067-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1370858067-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Efeito - 01 - Designer Conectr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Efeito - 01 - Designer Conectr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="716813" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\716813.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1309998" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1309998.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
